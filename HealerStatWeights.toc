@@ -1,0 +1,30 @@
+## Interface: 11200
+## Title: Healer Stat Weights (Classic)
+## Author: Bastas#6681 (discord)
+## Version: 1.0.0-classic
+## Notes: Computes statweights for healers in real-time on WoW Classic Era (1.12). Supports Holy Paladin, Resto Shaman, Resto Druid, Holy Priest. Additional Credits: Jundarer, Voulk, Manaleaf
+## DefaultState: Enabled
+## SavedVariables: HSW_DB
+
+embeds.xml
+
+Classes/Util.lua
+
+Classes/BuffTracker.lua
+Classes/CastTracker.lua
+Classes/Segment.lua
+Classes/SegmentManager.lua
+Classes/StatParser.lua
+Classes/UnitManager.lua
+Classes/Queues.lua
+Classes/OptionsBuilder.lua
+
+Parsers/Spells.lua
+Parsers/HolyPriest.lua
+Parsers/RestoDruid.lua
+Parsers/RestoShaman.lua
+Parsers/HolyPaladin.lua
+
+DisplayPanel.lua
+Core.lua
+Events.lua
